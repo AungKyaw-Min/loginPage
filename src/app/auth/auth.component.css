@@ -1,0 +1,38 @@
+.row {
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.col-sm-3 {
+  text-align: center;
+  border: 2px solid rgb(185, 184, 184);
+  padding: 50px;
+  border-radius: 5px;
+}
+
+/* Label */
+.label_login {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+fa-icon {
+  color: gray;
+  position: relative;
+  left: -170px;
+  top: 40px;
+}
+
+button {
+  margin-top: 100px;
+  width: 200px;
+}

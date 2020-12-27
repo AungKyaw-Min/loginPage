@@ -1,0 +1,93 @@
+/* Navbar */
+.navbar {
+  background-color: #2196f3;
+  padding: 0px 16px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.navbar-brand {
+  color: white;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+.active {
+  background-color: black;
+}
+
+/* Notification button */
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 5px 25px 5px 5px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  height: 35px;
+  text-align: center;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background: red;
+  color: white;
+  width: 40px;
+}
+
+.notification fa-icon {
+  font-size: 25px;
+}
+
+/* Search */
+.search {
+  border: 3px solid black;
+  float: right;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search_input {
+  padding-left: 10px;
+  width: 350px;
+  border: none;
+}
+
+.table-section {
+  margin: 50px;
+}
+
+.search fa-icon {
+  color: gray;
+}
+
+th,
+td {
+  max-width: 60px;
+}
+
+.notification:hover {
+  background-color: #2196f3;
+}
